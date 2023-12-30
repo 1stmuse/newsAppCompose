@@ -2,7 +2,7 @@ package com.loc.newsapp.presentation.navgraph
 
 sealed class Route (val route: String){
 
-    object OnBoardingScreen: Route(route = "nnBoardingScreen")
+    object OnBoardingScreen: Route(route = "onBoardingScreen")
     object HomeScreen: Route(route = "homeScreen")
     object SearchScreen: Route(route = "searchScreen")
     object BookmarkScreen: Route(route = "bookmarkScreen")
